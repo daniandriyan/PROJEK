@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Gaji Dokter</title>
+    <!-- Tambahkan tautan ke Bootstrap CSS di sini -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Input Gaji Dokter</h2>
+        <form method="post" action="insert.php">
+            <div class="form-group">
+                <label for="tanggal">Tanggal:</label>
+                <input type="date" class="form-control" name="tanggal" required>
+            </div>
+
+            <div class="form-group">
+                <label for="nama_dokter">Nama Dokter:</label>
+                <input type="text" class="form-control" name="nama_dokter" required>
+            </div>
+
+            <div class="form-group">
+                <label for="pasien_umum">PASIEN UMUM:</label>
+                <input type="number" class="form-control" name="pasien_umum" required>
+            </div>
+
+            <!-- Tambahkan input fields untuk KB, SKBS, NEBU, AU, CHOL, GDS, WTS, WTB, EXTRAKSI_KUKU, UANG_MAKAN, dan TOTAL_GAJI -->
+            <div class="form-group">
+                <label for="KB">KB:</label>
+                <input type="number" class="form-control" name="KB">
+            </div>
+            <div class="form-group">
+                <label for="SKBS">SKBS:</label>
+                <input type="number" class="form-control" name="SKBS">
+            </div>
+            <div class="form-group">
+                <label for="NEBU">NEBU:</label>
+                <input type="number" class="form-control" name="NEBU">
+            </div>
+            <div class="form-group">
+                <label for="AU">AU:</label>
+                <input type="number" class "form-control" name="AU">
+            </div>
+            <div class="form-group">
+                <label for="CHOL">CHOL:</label>
+                <input type="number" class "form-control" name="CHOL">
+            </div>
+            <div class="form-group">
+                <label for="GDS">GDS:</label>
+                <input type="number" class="form-control" name="GDS">
+            </div>
+            <div class="form-group">
+                <label for="WTS">WTS:</label>
+                <input type="number" class="form-control" name="WTS">
+            </div>
+            <div class="form-group">
+                <label for="WTB">WTB:</label>
+                <input type="number" class="form-control" name="WTB">
+            </div>
+            <div class="form-group">
+                <label for="EXTRAKSI_KUKU">EXTRAKSI KUKU:</label>
+                <input type="number" class="form-control" name="EXTRAKSI_KUKU">
+            </div>
+            <div class="form-group">
+                <label for="UANG_MAKAN">UANG MAKAN:</label>
+                <input type="number" class="form-control" name="UANG_MAKAN">
+            </div>
+            <div class="form-group">
+                <label for="TOTAL_GAJI">TOTAL GAJI:</label>
+                <input type="number" class="form-control" name="TOTAL_GAJI">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Simpan</button>
+        </form>
+    </div>
+
+    <!-- Tambahkan tautan ke Bootstrap JS di sini jika diperlukan -->
+</body>
+</html>
+
