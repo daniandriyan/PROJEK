@@ -8,6 +8,7 @@ $pdf = new TCPDF();
 // Mengatur informasi dokumen
 $pdf->SetCreator('Nama Anda');
 $pdf->SetAuthor('Nama Anda');
+
 $pdf->SetTitle('Data Obat PDF');
 $pdf->SetSubject('Data Obat');
 

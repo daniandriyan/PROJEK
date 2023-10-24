@@ -90,7 +90,7 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Data Absensi
                             </a>
-                            <a class="nav-link" href="gajidokter/gajidokter.html">
+                            <a class="nav-link" href="hasil.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Upah Dokter
                             </a>
